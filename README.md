@@ -26,3 +26,7 @@ and the most accurate model will be saved for testing. The two unimodal models f
 For getting the audio unimodal model using LEAF and CNN refer to **audio_model.py**. For the LEAF implementation, please refer to [Pytorch implementation](https://github.com/denfed/leaf-audio-pytorch). Please have a look at the requirements of this implementation for running the LEAF-CNN model.
 
 For the transformer part of the code, please refer to **requirements.txt**. Please note that it is possible that there is a clash between the requirements of the LEAF-CNN network and the transformer model. It is advised to create separate environments for both of them.
+
+A Colab notebook **sentiment_text.ipynb** is provided for creating the unimodal model for text
+
+For the Bi-GRU with attention please refer to **class GRUModel** (lines 175-209) of **src/model_lstm_tranformers.py**.
