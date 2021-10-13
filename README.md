@@ -21,3 +21,8 @@ contents of this file are as follows:
 
 After changing the config parameters according to requirement, run **main.py**. Ensure that **line 144 reads main(True, True, True)**. The model will be trained
 and the most accurate model will be saved for testing. The two unimodal models for audio and text are provided in **unimodal_models** folder.
+
+
+For getting the audio unimodal model using LEAF and CNN refer to **audio_model.py**. For the LEAF implementation, please refer to [Pytorch implementation](https://github.com/denfed/leaf-audio-pytorch). Please have a look at the requirements of this implementation for running the LEAF-CNN model.
+
+For the transformer part of the code, please refer to **requirements.txt**. Please note that it is possible that there is a clash between the requirements of the LEAF-CNN network and the transformer model. It is advised to create separate environments for both of them.
