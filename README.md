@@ -1,5 +1,5 @@
 # Multimodal Transformer With Learnable Frontend and Self Attention for Emotion Recognition 
-Code for multimodal emotion recognition in IEMOCAP
+Code for multimodal emotion recognition in IEMOCAP for Session 5 as test
 
 This repo contains the code for detecting emotion from the conversational dataset IEMOCAP. For running the code, please refer to the **config.py** file. The important
 contents of this file are as follows:
