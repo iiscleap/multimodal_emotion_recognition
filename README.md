@@ -8,7 +8,7 @@ This repo contains the code for detecting emotion from the conversational datase
 - The representations from the trained models in the step above are used to create pickle files for the entire dataset
 - With these representations, two Bi-GRU models with self-attention (refer to **bigru_audio/text.ipynb**) is trained. The best models for both audio and text are already provided in the **unimodal_models** folder. 
 - A multimodal transformer is trained on both the modalities of the dataset for the final accuracy results
-- Please note that usage of **IEMOCAP** requires permission. Once this is done, we can share the dataset files
+- Please note that usage of **IEMOCAP** requires permission. Once this is done, we can share the dataset files. For permission please visit [IEMOCAP release](https://sail.usc.edu/iemocap/iemocap_release.htm)
 
 ## Running the code
 - Clone the repository `https://github.com/iiscleap/multimodal_emotion_recognition.git`
