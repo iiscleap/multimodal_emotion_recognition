@@ -14,7 +14,7 @@ This repo contains the code for detecting emotion from the conversational datase
 - Clone the repository `https://github.com/iiscleap/multimodal_emotion_recognition.git`
 - For the LEAF-CNN framework for audio sentiment classification, we use [this Pytorch implementation](https://github.com/denfed/leaf-audio-pytorch) for LEAF.
   - Run ```python3 -m venv .leaf_venv```
-  - Run ```source .leaf_venv/bin/activate 
+  - Run ```source .leaf_venv/bin/activate```
   - Run ```pip install -r requirements_leaf.txt```
   - Clone the repository ```https://github.com/denfed/leaf-audio-pytorch.git``` 
   - The files should be arranged as follows:
@@ -42,7 +42,7 @@ This repo contains the code for detecting emotion from the conversational datase
 - For running the two Bi-GRU models with self-attention, run **bigru_audio.ipynb** to get ```best_model_aud0.tar``` and **bigru_text.ipynb** to get ```best_model_text0.tar```. These are to be placed in the folder **unimodal_models**.
 - For running the multimodal transformer we create another environment
   - Run ```python3 -m venv .trans_venv```
-  - Run ```source .trans_venv/bin/activate 
+  - Run ```source .trans_venv/bin/activate```
   - Run ```pip install -r requirements.txt```
   - With the config file provided, run ```python3 main.py```
   - The files at this stage should be arranged as follows:
