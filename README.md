@@ -1,6 +1,6 @@
 # Multimodal Transformer With Learnable Frontend and Self Attention for Emotion Recognition 
 
-This repo contains the code for detecting emotion from the conversational dataset IEMOCAP for the implementation of the paper "Multimodal Transformer With Learnable Frontend and Self Attention for Emotion Recognition" submitted to ICASSP 2022.
+This repo contains the code for detecting emotion from the conversational dataset IEMOCAP for the implementation of the paper "Multimodal Transformer With Learnable Frontend and Self Attention for Emotion Recognition" submitted to ICASSP 2022. This repository contains the code when Session 5 is conisdered as test and Session 1 as validation.
 
 ## Description of the code
 - The implementation has three stages, namely, training the unimodal audio and text models, training the Bi-GRU with self-attention and the multimodal transformer
