@@ -1,0 +1,1 @@
+Required pickle file needs to be placed in this folder. The program will create npy files for its usage in this same folder.
